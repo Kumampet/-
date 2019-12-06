@@ -92,12 +92,13 @@ class Main {
 
                 }
             } else if (n == 2) {
+                // 登録メンバーの表示
                 if (num == 0) {
                     System.out.println("まだ一人もいないよ！");
                 } else {
                     for (int i = 0; i < num; i++) {
 
-                        System.out.println("-----------" + i+1 + "人目-----------");
+                        System.out.println("-----------" + (i+1) + "人目-----------");
                         System.out.println("名前：" + members[i].name);
                         System.out.println("性別：" + members[i].sex);
                         System.out.println("年齢：" + members[i].age);
